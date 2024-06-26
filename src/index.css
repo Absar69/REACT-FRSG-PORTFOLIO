@@ -9,7 +9,10 @@
     list-style: none;
     text-decoration: none;
 }
-
+section{
+    margin-top: 11rem;
+    height: 100vh;
+}
 :root {
     --color-bg: #012413;
     --color-bg-variant: #1a6426c7;
@@ -131,7 +134,7 @@ body{
         width: var(--container-width-md);
     }
     .custom-section > .custom-heading-2 {
-        margin-top: 6rem;
+        margin-top: 8rem;
     }
 }
 
@@ -141,5 +144,9 @@ body{
     }
     .custom-section > .custom-heading-2 {
         margin-top: 2rem;
+    }
+    section{
+        margin-top: 35rem;
+        height: 120vh;
     }
 }

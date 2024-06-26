@@ -2,7 +2,7 @@ import React from 'react'
 import './testimonials.css'
 function  testimonials  ()  {
   return (
-    <div>testimonials</div>
+    <section id='testimonials'>testimonials</section>
   )
 }
 
