@@ -42,67 +42,60 @@ body{
 
 
 }
-
-/* =========================== GENERAL STYLES ================== */
-
-.container
-{
-    width: var(--container-width-lg);
-    margin: 0 auto;                 
-
-
+/* General Styles */
+.custom-body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.custom-container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+.custom-heading {
     font-weight: 500;
     color: var(--color-white);
     margin-bottom: 0.5rem;
-    }   
+}
 
-h1{
+.custom-heading-1 {
     font-size: 2.5rem;
-
 }
 
-section{
-margin-top: 8rem;
-
+.custom-section {
+    margin-top: 8rem;
 }
 
-section > h2, 
-section > h5 {
+.custom-section > .custom-heading-2,
+.custom-section > .custom-text-light {
     text-align: center;
     margin-bottom: 2rem;
-    color :var(--color-bg);
-
+    color: var(--color-bg);
 }
 
-section > h2 {
-    color : var(--color-primary);
+.custom-section > .custom-heading-2 {
+    color: var(--color-primary);
     margin-bottom: 3rem;
 }
 
-.text-light {
+.custom-text-light {
     color: var(--color-light);
-
 }
 
-a {
+.custom-link {
     color: var(--color-primary);
     text-decoration: none;
     transition: var(--transition);
 }
 
-a:hover {
+.custom-link:hover {
     color: var(--color-white);
 }
 
-.btn {
+.custom-btn {
     width: max-content;
     color: var(--color-primary);
     display: inline-block;
@@ -114,47 +107,39 @@ a:hover {
     transition: var(--transition);
 }
 
-.btn:hover {
+.custom-btn:hover {
     background: var(--color-white);
     color: var(--color-primary);
     border-color: transparent;
 }
 
-.btn-primary {
+.custom-btn-primary {
     background: var(--color-primary);
     color: var(--color-white);
+    width: max-content;
 }
 
-
-img {
+.custom-img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
-/*========================= MEDIA QUERIES (MEDIUM DEVICES)===================== */
-
-@media screen and (max-width : 1024px) 
-{
-    .container{
-        width : var(--container-width-md);
-
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .custom-container {
+        width: var(--container-width-md);
     }
-    section >h2 {
-        margin-top:  6rem;
+    .custom-section > .custom-heading-2 {
+        margin-top: 6rem;
     }
 }
 
-
-/*========================= MEDIA QUERIES (SMALL DEVICES)===================== */
-
-@media screen and (max-width : 600px) 
-{
-    .container{
-        width : var(--container-width-sm);
-
+@media screen and (max-width: 600px) {
+    .custom-container {
+        width: var(--container-width-sm);
     }
-    section > h2 {
-        margin-top:  2rem;
+    .custom-section > .custom-heading-2 {
+        margin-top: 2rem;
     }
 }

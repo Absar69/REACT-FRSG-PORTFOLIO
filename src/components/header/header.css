@@ -12,7 +12,7 @@ header {
 
 /*================= CTA ==============*/
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 6rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -20,32 +20,48 @@ header {
 
 /*================ HEADER SOCIALS================*/
 
-.header__socials{
+.header__socials {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
-    bottom: 3rem;
-    }
-
-.header__socials::after {
+    left: 0rem;
+    bottom: 1rem;
+    top: 9rem;
+  }
+  
+  .header__socials a {
+    display: flex;
+    align-items: center; /* Aligns icon and text vertically */
+    font-size: 5rem; /* Adjust the font size of the icon */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .header__socials::after {
     content: '';
     width: 1px;
-    height: 2rem;
+    height: 10rem;
     background-color: var(--color-primary);
     position: absolute;
-    left: 50%;
+    left: 0;
     transform: translateX(-50%);
-}
+  }
+  .social-link {
+    color: var(--color-primary);
+    margin-right: 1rem; /* Example: Add margin between icons */
+  }
+  .social-link:hover {
+    color: var(--color-white);
+    margin-right: 1rem; /* Example: Add margin between icons */
+  }
 /*================= ME==============*/
 .me {
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
-    left: calc(35% );
+    left: calc(25% );
     margin-top:4rem ;
     border-radius: 12rem 12rem 0 0;
     overflow:hidden;
@@ -57,7 +73,7 @@ header {
 .scroll__down {
     position: absolute;
     right: -2.5rem;
-    bottom: 5rem;
+    top: 16rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
@@ -72,6 +88,7 @@ header {
         position: absolute;
         left: 0;
         bottom: 0;
+       
         transform: translateX(-50%);
         }
 
@@ -101,3 +118,16 @@ header {
         display: none;
     }
 }
+
+/* header.css */
+
+@media (max-width: 767px) {
+    /* Adjustments for smaller screens (sm and xs) */
+    .me {
+    
+      width: 50%; /* Adjust width as needed */
+      margin: 0 auto; /* Center horizontally */
+      text-align: center; /* Center content inside .me */
+    }
+  }
+  
