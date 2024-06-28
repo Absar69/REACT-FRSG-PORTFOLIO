@@ -29,3 +29,12 @@ nav a.active {
     background: var(--color-primary);
     color: var(--color-white);
     }
+
+    .social-link {
+        color: var(--color-primary);
+        margin-right: 1rem; /* Example: Add margin between icons */
+      }
+      .social-link:hover {
+        color: var(--color-white);
+        margin-right: 1rem; /* Example: Add margin between icons */
+      }
