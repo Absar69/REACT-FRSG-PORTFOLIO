@@ -11,13 +11,13 @@
 }
 section{
     margin-top: 11rem;
-    height: 100vh;
+   
 }
 :root {
     --color-bg: #012413;
-    --color-bg-variant: #1a6426c7;
+    --color-bg-variant: #0c551890;
     --color-primary: #6fbd7f;
-    --color-primary-variant: rgba(107, 255, 77, 0.4);
+    --color-primary-variant: rgba(153, 221, 140, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --container-width-lg: 75%;
@@ -136,7 +136,11 @@ body{
     .custom-section > .custom-heading-2 {
         margin-top: 8rem;
     }
+    section{
+        margin-top: 20rem;
+    }
 }
+
 
 @media screen and (max-width: 600px) {
     .custom-container {
@@ -146,7 +150,7 @@ body{
         margin-top: 2rem;
     }
     section{
-        margin-top: 35rem;
-        height: 120vh;
+        margin-top: 30rem;
+     
     }
 }
