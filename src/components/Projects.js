@@ -22,33 +22,33 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "FRSG",
+      description: "Project 1",
       imgUrl: projImg1,
     },
     {
       title: "FRSG",
-      description: "Design & Development",
+      description: "Project 2",
       imgUrl: projImg2,
     },
     {
       title: "FRSG",
-      description: "Design & Development",
+      description: "Project 3",
       imgUrl: projImg3,
     },
     {
       title: "FRSG",
-      description: "Design & Development",
+      description: "Project 4",
       imgUrl: projImg1,
     },
     {
       title: "FRSG",
-      description: "Design & Development",
+      description: "Project 5",
       imgUrl: projImg2,
     },
     {
       title: "FRSG",
-      description: "Design & Development",
+      description: "Project 6",
       imgUrl: projImg3,
     },
   ];

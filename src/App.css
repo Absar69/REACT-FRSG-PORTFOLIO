@@ -692,3 +692,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 80%;
   margin: 0.8rem auto 0;
 }
+
+@media (max-width: 756px) {
+  .navbar-text .btn.btn-sm {
+    padding: 10px 10px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+}

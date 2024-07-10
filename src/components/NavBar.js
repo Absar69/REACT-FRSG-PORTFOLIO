@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
@@ -57,11 +56,11 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd text-align"><span>Let’s Connect</span></button>
+                <button className="vvd btn btn-sm"><span>Let’s Connect</span></button>
               </HashLink>
               {/* Download link for dummy.pdf */}
               <a href={dummyPDF} download="dummy.pdf">
-                <button className="vvd"><span>Get Started</span></button>
+                <button className="vvd btn btn-sm"><span>Get Started</span></button>
               </a>
             </span>
           </Navbar.Collapse>
