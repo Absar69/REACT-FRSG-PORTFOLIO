@@ -57,7 +57,7 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd text-align"><span>Let’s Connect</span></button>
               </HashLink>
               {/* Download link for dummy.pdf */}
               <a href={dummyPDF} download="dummy.pdf">
