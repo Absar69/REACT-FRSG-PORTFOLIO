@@ -230,7 +230,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-/************ Banner Css ************/
+/************ Header Css ************/
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -340,7 +340,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Projects and Testimonials Css ************/
 .project {
   padding: 80px 0;
   position: relative;
@@ -541,7 +541,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  background-image: url('./assets/img/color-sharp.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

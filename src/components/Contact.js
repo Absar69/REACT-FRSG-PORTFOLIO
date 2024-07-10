@@ -25,7 +25,7 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const mailtoLink = `mailto:habiba.saleem2002@gmail.com?subject=Contact Form Submission - Portfolio&body=Name: ${formDetails.firstName} ${formDetails.lastName}%0D%0AEmail: ${formDetails.email}%0D%0APhone: ${formDetails.phone}%0D%0AMessage: ${formDetails.message}`;
+    const mailtoLink = `mailto:habiba.saleem2002@gmail.com?subject=Contact Form Submission - FRSG&body=Name: ${formDetails.firstName} ${formDetails.lastName}%0D%0AEmail: ${formDetails.email}%0D%0APhone: ${formDetails.phone}%0D%0AMessage: ${formDetails.message}`;
     window.location.href = mailtoLink;
     setStatus({ success: true, message: 'Redirecting to your email client...' });
     setFormDetails(formInitialDetails);
