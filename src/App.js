@@ -15,8 +15,9 @@ function App() {
       <Header />
      <Technology/>
       <Projects />
-      <Contact />
-      <Footer />
+    {/* <Contact />
+      <Footer /> 
+ */ } 
     </div>
     </div>
   );
