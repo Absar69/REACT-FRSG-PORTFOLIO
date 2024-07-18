@@ -16,6 +16,7 @@ export const Contact = () => {
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
+  
 
   const onFormUpdate = (category, value) => {
     setFormDetails({
@@ -37,7 +38,7 @@ export const Contact = () => {
         setStatus({ success: false, message: 'Failed to send email. Please try again later.' });
         setButtonText('Send');
         console.error('There was an error!', error);
-        
+
       });
   };
 
