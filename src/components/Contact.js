@@ -37,6 +37,7 @@ export const Contact = () => {
         setStatus({ success: false, message: 'Failed to send email. Please try again later.' });
         setButtonText('Send');
         console.error('There was an error!', error);
+        
       });
   };
 
