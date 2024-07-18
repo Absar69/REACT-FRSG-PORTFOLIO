@@ -720,3 +720,288 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
 
 }
+
+/* Payments CSS */
+
+.payments-section {
+  padding: 80px 0;
+  background-color: #121212;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.payment-card {
+  margin-bottom: 30px;
+}
+
+.payment-icon {
+  font-size: 50px;
+  color: #63b0a8;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.payment-icon:hover {
+  transform: scale(1.1);
+}
+
+
+/* Details CSS */
+
+
+/* App.css */
+
+
+/************ Project Details Css ************/
+/************ Project Details Css ************/
+/************ Project Details Css ************/
+.project-details {
+  padding: 80px 0;
+  position: relative;
+  background-color: #121212;
+  color: #fff;
+}
+
+.project-details h1, .project-details h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.project-details h1 {
+  font-size: 45px;
+}
+
+.project-details h2 {
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.project-details .intro-text {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin-bottom: 60px;
+}
+
+
+
+.project-details .project-image {
+  max-width: 60%;  /* Reduces the maximum width */
+  height: auto;
+  border-radius: 20px;
+  margin: 0 auto 20px auto;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-details .project-description {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0 auto 40px auto;
+}
+
+@media (max-width: 768px) {
+  .project-details .project-image {
+    max-width: 90%;  /* Adjusts the width for smaller screens */
+  }
+
+  .project-details h1 {
+    font-size: 35px;  /* Adjusts the heading size for smaller screens */
+  }
+
+  .project-details h2 {
+    font-size: 30px;  /* Adjusts the subheading size for smaller screens */
+  }
+
+  .project-details .intro-text,
+  .project-details .project-description {
+    font-size: 16px;  /* Adjusts the text size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-details h1 {
+    font-size: 30px;  /* Further adjusts the heading size for very small screens */
+  }
+
+  .project-details h2 {
+    font-size: 25px;  /* Further adjusts the subheading size for very small screens */
+  }
+
+  .project-details .intro-text,
+  .project-details .project-description {
+    font-size: 14px;  /* Further adjusts the text size for very small screens */
+  }
+}
+
+
+/************ Careers Css ************/
+/************ Careers Css ************/
+/************ Careers Css ************/
+.careers {
+  position: relative;
+  background-color: #121212;
+  color: #fff;
+}
+
+.hero-section {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-section:hover .hero-image {
+  transform: scale(1.05);
+}
+
+.hero-text {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-text .intro-text {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro-section {
+  padding: 60px 0;
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+.intro-section h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.job-listing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+  animation: fadeInUp 2s ease-in-out;
+}
+
+.job-listing:hover {
+  background-color: #2a2a2a;
+}
+
+.job-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.job-details h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.job-details p {
+  font-size: 18px;
+  color: #B8B8B8;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 300px;
+  }
+
+  .hero-text h1 {
+    font-size: 35px;
+  }
+
+  .hero-text .intro-text {
+    font-size: 18px;
+  }
+
+  .job-listing {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .job-image {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    height: 250px;
+  }
+
+  .hero-text h1 {
+    font-size: 30px;
+  }
+
+  .hero-text .intro-text {
+    font-size: 16px;
+  }
+
+  .intro-section h2 {
+    font-size: 30px;
+  }
+
+  .job-details h3 {
+    font-size: 24px;
+  }
+
+  .job-details p {
+    font-size: 16px;
+  }
+}
