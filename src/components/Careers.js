@@ -1,11 +1,14 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button  } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom'; 
 import heroImage from '../assets/img/c4.jpg';
 import softwareEngineerImage from '../assets/img/c1.jpg';
 import dataScientistImage from '../assets/img/c2.jpg';
 import projectManagerImage from '../assets/img/c3.jpg';
 
 export const Careers = () => {
+  const navigate = useNavigate();
+
     return (
       <section className="careers">
         <div className="hero-section">
@@ -15,6 +18,7 @@ export const Careers = () => {
             <p className="intro-text">
               We are always on the lookout for talented and passionate individuals to join our team. If you are eager to work in a dynamic and innovative environment, check out our open positions and apply today.
             </p>
+            <Button className="ret-button ret-button-gradient ret-button-animated ret-button-large" onClick={() => navigate('/')}>FRSG</Button>
           </div>
         </div>
         <div className="intro-section">

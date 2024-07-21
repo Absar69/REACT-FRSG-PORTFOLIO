@@ -1,10 +1,13 @@
 import React from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image, Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom'; 
 import projectImage1 from '../assets/img/project-img1.png';
 import projectImage2 from '../assets/img/project-img2.png';
 import projectImage3 from '../assets/img/project-img3.png';
 
 export const ProjectDetails = () => {
+
+  const navigate = useNavigate();
   return (
     <section className="project-details">
       <Container>
@@ -14,6 +17,7 @@ export const ProjectDetails = () => {
             <p className="intro-text">
               Welcome to our projects page! Here, you will find a showcase of our latest and greatest work. Each project is a testament to our dedication, expertise, and passion for delivering top-notch solutions. Dive in and explore the details of each project to see how we bring ideas to life.
             </p>
+            <Button className="ret-button ret-button-gradient ret-button-animated ret-button-large" onClick={() => navigate('/')}>FRSG</Button>
           </Col>
         </Row>
         <Row className="justify-content-center">
