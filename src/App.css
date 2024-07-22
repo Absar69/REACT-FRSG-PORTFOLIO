@@ -957,15 +957,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (max-width: 768px) {
-  .hero-section {
+  .hero-section 
+  {
     height: 300px;
   }
 
-  .hero-text h1 {
+  .hero-text h1 
+  {
     font-size: 35px;
   }
 
-  .hero-text .intro-text {
+  .hero-text .intro-text 
+  {
     font-size: 18px;
   }
 
