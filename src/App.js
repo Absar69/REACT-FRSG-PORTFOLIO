@@ -26,13 +26,14 @@ function App() {
               <Projects />
               <Payments />
               <Contact />
-              <Footer />
+            
             </>
           } />
           <Route path="/project-details" element={<ProjectDetails />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/apply" element={<JobApplication />} /> {/* Add this route */}
         </Routes>
+          <Footer />
       </div>
     
   );
