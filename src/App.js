@@ -10,16 +10,17 @@ import { ProjectDetails } from "./components/ProjectDetails"; // Import the new 
 import { Careers } from "./components/Careers"; // Import the new component
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import JobApplication from './components/jobApplications';
 
 function App() {
   return (
   
       <div className="App">
-        
+       
         <Routes>
           <Route path="/" element={
             <>
-               <NavBar />
+             <NavBar />
               <Header />
               <Technology />
               <Projects />
@@ -28,9 +29,9 @@ function App() {
               <Footer />
             </>
           } />
-
           <Route path="/project-details" element={<ProjectDetails />} />
           <Route path="/careers" element={<Careers />} />
+          <Route path="/apply" element={<JobApplication />} /> {/* Add this route */}
         </Routes>
       </div>
     
