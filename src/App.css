@@ -33,7 +33,7 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #bcd4e6 !important;
-  color: #fff !important;
+  color: #ffffff !important;
   font-family: 'Centra', sans-serif !important;
 }
 
@@ -989,6 +989,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .hero-section {
     height: 250px;
   }
+  
 
   .hero-text h1 {
     font-size: 30px;
@@ -1192,4 +1193,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .job-application form .form-group {
   margin-bottom: 20px; /* Added margin for form groups */
+}
+
+
+.text-custom-color {
+  color: #191970;
 }
